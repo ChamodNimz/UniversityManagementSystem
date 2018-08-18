@@ -1,0 +1,52 @@
+.image{
+background-image: url(../images/background/502321214.jpg);
+background-repeat: no-repeat;
+;
+
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+.back-image{
+	background-image: url('../images/background/computer-with-man.jpeg');
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	position: fixed;
+}
+.profile-card{
+	padding: 20px !important;
+	padding-bottom: 10px !important;
+	overflow: hidden;
+
+}
+.back{
+	position: absolute;
+	left:10px !important;
+	top: 20px;
+	border-radius: 90px;
+}
+.upload{
+	position: absolute;
+	left: 215px;
+	top: 20px;
+	border-radius: 50px;
+}
+.unround{
+	border-radius: 0px ! important;
+}
+/*conversation dialog css*/
+.dialog{
+
+	width: 300px;
+	height: auto;
+	background-color: #222222;
+	padding: 10px;
+	margin: 20px;
+}
+.name{
+	font-family: 'ABeeZee';font-size: 20px;
+}
